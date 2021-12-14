@@ -834,7 +834,16 @@ if __name__ == "__main__":
 <summary class="button">**Schritt 1:**</summary>
 
 <p class="panel-content">
+*Schreiben Sie einen Codeabschnitt, so dass alle Elemente der Eingabe nacheinander (von links nach rechts) durchlaufen werden.*
 
+Um zu prüfen, ob der Code das Gewünschte tut, lassen Sie sich die Elemente nacheinander einzeln via print() ausgeben. Für die Liste "3,7,1" sollte die Ausgabe also wie folgt aussehen:
+
+- 3
+- 7
+- 1
+- Sortierte Liste: [3, 7, 1, 9, 2]
+
+Die Eingabeliste wird am Ende immer zurückgegeben, muss jetzt aber noch nicht sortiert sein.
 </p>
 </details>
 
@@ -842,7 +851,9 @@ if __name__ == "__main__":
 <summary class="button">**Schritt 2:**</summary>
 
 <p class="panel-content">
+*Ergänzen Sie Ihren Code so, dass jedes Element mit dem Element rechts davon verglichen wird. Ist das rechte Element größer, soll getauscht werden.*
 
+Bei der Eingabe "[3,7,1,9,2]" sollte jetzt also "[3,1,7,2,9]" ausgegeben werden.
 </p>
 </details>
 
@@ -850,7 +861,9 @@ if __name__ == "__main__":
 <summary class="button">**Schritt 3:**</summary>
 
 <p class="panel-content" >
+*Jetzt soll das Programm so erweitert werden, dass das Durchlaufen der Liste so oft wiederholt wird, bis in einem Durchlauf keine Elemente mehr getauscht wurden.*
 
+Die Eingabe "[3,7,1,9,2]" sollte nun richtig sortiert als "[1,2,3,7,9]" ausgegeben werden. Probieren Sie Listen verschiedener Längen und mit unterschiedlichen Zahlen aus, um Ihren Code zu testen.
 </p>
 </details>
 
