@@ -836,11 +836,13 @@ if __name__ == "__main__":
 <p class="panel-content">
 *Schreiben Sie einen Codeabschnitt, so dass alle Elemente der Eingabe nacheinander (von links nach rechts) durchlaufen werden.*
 
-Um zu prüfen, ob der Code das Gewünschte tut, lassen Sie sich die Elemente nacheinander einzeln via print() ausgeben. Für die Liste "3,7,1" sollte die Ausgabe also wie folgt aussehen:
+Um zu prüfen, ob der Code das Gewünschte tut, lassen Sie sich die Elemente nacheinander einzeln via print() ausgeben. Für die Liste "[3,7,1,9,2]" sollte die Ausgabe also wie folgt aussehen:
 
 - 3
 - 7
 - 1
+- 9
+- 2
 - Sortierte Liste: [3, 7, 1, 9, 2]
 
 Die Eingabeliste wird am Ende immer zurückgegeben, muss jetzt aber noch nicht sortiert sein.
